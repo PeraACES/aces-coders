@@ -125,7 +125,7 @@ body {
   right: -7.25em;
   border-radius: 50%;
   text-decoration: none;
-  color: #fff;
+  color: white;
   padding-top: 1.8em;
   text-align: center;
   -webkit-transform: skew(-50deg) rotate(-70deg) scale(1);
@@ -183,19 +183,19 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 }
 
 .csstransforms .cn-wrapper li:nth-child(odd) a {
-  background-color: #304566;
-  background-color: hsla(217, 36%, 29%, 1);
+  background-color: #750085;
+  background-color: rgb(68, 0, 59);
 }
 
 .csstransforms .cn-wrapper li:nth-child(even) a {
-  background-color: #304566;
-  background-color: hsla(217, 40%, 65%, 1);
+  background-color: #190030;
+  background-color: rgb(92, 0, 83);
 }
 
 /* active style */
 .csstransforms .cn-wrapper li.active a {
-  background-color: #304566;
-  background-color: hsla(217, 88%, 70%, 1);
+  background-color: #001536;
+  background-color: rgb(71, 0, 71);
 }
 
 
@@ -204,7 +204,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 .csstransforms .cn-wrapper li:not(.active) a:active,
 .csstransforms .cn-wrapper li:not(.active) a:focus {
   background-color: #304566;
-  background-color: hsla(217, 88%, 70%, 1);
+  background-color: rgb(12, 0, 11);
 }
 .csstransforms .cn-wrapper li:not(.active) a:focus
 {

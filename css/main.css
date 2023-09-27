@@ -260,7 +260,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: #002f57;
+        background-color: #1f001f96; /*#002f57*/ /*#180018*/
         opacity: 0.6;
         z-index: 1;
     }
@@ -270,9 +270,9 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: url("../img/overlay-image.png");
+        background: url("../img/p1.png");
         background-size: cover;
-        background-position: -370px 0px;
+        background-position: -1200px 0px;
         background-repeat: no-repeat;
         opacity: 0.6;
         z-index: 1;
@@ -384,7 +384,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: #002f57;
+        background-color: #1f001f96;
         opacity: 0.6;
         z-index: 1;
     }
@@ -394,9 +394,9 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: url("../img/overlay-image.png");
+        background: url("../img/p1.png");
         background-size: cover;
-        background-position: -0px -0px;
+        background-position: -500px -0px;
         background-repeat: no-repeat;
         opacity: 0.6;
         z-index: 1;
@@ -432,6 +432,22 @@
         font-size: 25px;
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1076px) and (min-width: 900px) {
+    header .overlay-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100% !important;
+        width: 100%;
+        background: url("../img/p1.png");
+        background-size: cover;
+        background-position: 0px -0px !important;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+        z-index: 1;
     }
 }
 
@@ -511,7 +527,7 @@
         left: 0;
         height: 105%;
         width: 100%;
-        background-color: #002f57;
+        background-color: #1f001f96;/*#1f001f96*/
         opacity: 0.6;
         z-index: 1;
       
@@ -520,11 +536,11 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 105%;
+        height: 115%;
         width: 100%;
-        background: url("../img/overlay-image.png");
+        background: url("../img/p1.png");
         background-size: cover;
-        background-position: 0px -300px;
+        background-position: 0px -120px;
         background-repeat: no-repeat;
         opacity: 0.6;
         z-index: 1;
@@ -577,7 +593,7 @@
         left: 0;
         height: 105%;
         width: 100%;
-        background: url("../img/overlay-image.png");
+        background: url("../img/p1.png");
         background-size: cover;
         background-position: 0px -50px;
         background-repeat: no-repeat;
@@ -593,7 +609,7 @@
         left: 0;
         height: 105%;
         width: 100%;
-        background: url("../img/overlay-image.png");
+        background: url("../img/p1.png");
         background-size: cover;
         background-position: 0px -160px;
         background-repeat: no-repeat;
@@ -632,7 +648,7 @@
 }
 
 .buttonfaq {
-    background-color: #314867;
+    background-color: #610069;
     border: 5px solid white;
     color: white;
     padding: 10px 20px;
